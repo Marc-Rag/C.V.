@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#corps {
+    width: 21cm;
+    height: 29.7cm;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    background-image: radial-gradient(circle at center, white, rgb(177, 176, 176));
+}
+h1 {
+    font: italic 2.5em "Grand Hotel", cursive;
+    text-align: center;
+    margin: 10px auto;
+}
+h2 {
+    margin: 10px auto;
+}
+h2, #hello {
+    font: italic 2.5em "Grand Hotel", cursive;
+    text-align: center;
+}
+#hello {
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-weight: bold;
+}
+strong {
+    color: rgb(0, 167, 167);
+}
+em {
+    font: bold 0.9em normal;
+}
+h4 {
+    margin: 0;
+    font: bold 1em normal;
+}
+h3, #interets li {
+    font: lighter italic 1.5em 'Grand Hotel', cursive ;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 167, 167);
+    box-shadow: 2px 2px 4px grey;
+    width: 200px;
+    margin: 15px auto;
+}
+li {
+    list-style-type: none;
+}
+#diplomes li, #diplomes ul, #experience li, #experience ul {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+#competences, #diplomes, #experience{
+    display: flex;
+    justify-content: space-around;
+}
+#interets ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#interets li {
+    height: 35px;
+    background-color: rgb(184, 183, 183);
+}
